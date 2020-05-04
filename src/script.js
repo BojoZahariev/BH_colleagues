@@ -91,9 +91,9 @@ colleaguesListBtn.addEventListener('click', function (e) {
   passwordDiv.appendChild(passwordForm);
   let inputPassword = document.createElement('input');
   inputPassword.type = 'text';
-  inputPassword.autofocus = true;
   inputPassword.classList.add('inputs');
   passwordForm.appendChild(inputPassword);
+  inputPassword.focus();
   let passwordSubmit = document.createElement('button');
   passwordSubmit.type = 'submit';
   passwordSubmit.textContent = 'Submit';
@@ -157,9 +157,9 @@ visitorsListBtn.addEventListener('click', function (e) {
   passwordDiv.appendChild(passwordForm);
   let inputPassword = document.createElement('input');
   inputPassword.type = 'text';
-  inputPassword.autofocus = true;
   inputPassword.classList.add('inputs');
   passwordForm.appendChild(inputPassword);
+  inputPassword.focus();
   let passwordSubmit = document.createElement('button');
   passwordSubmit.type = 'submit';
   passwordSubmit.textContent = 'Submit';
@@ -245,9 +245,9 @@ archiveBtn.addEventListener('click', function (e) {
   passwordDiv.appendChild(passwordForm);
   let inputPassword = document.createElement('input');
   inputPassword.type = 'text';
-  inputPassword.autofocus = true;
   inputPassword.classList.add('inputs');
   passwordForm.appendChild(inputPassword);
+  inputPassword.focus();
   let passwordSubmit = document.createElement('button');
   passwordSubmit.type = 'submit';
   passwordSubmit.textContent = 'Submit';
